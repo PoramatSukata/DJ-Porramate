@@ -1,5 +1,5 @@
 """
-ASGI config for wabapp project.
+ASGI config for webApp2 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'wabapp.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'webApp2.settings')
 
 application = get_asgi_application()

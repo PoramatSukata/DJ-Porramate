@@ -1,1 +1,1 @@
-web : gunicorn wabapp.wsgi
+web: gunicorn webApp2.wsgi
